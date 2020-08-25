@@ -1,7 +1,9 @@
 XOR 변환기
 
 1. COMMAND
- - cat encrypted.txt | python xor.py "key"
+ - cat encrypted.txt | python xor.py "key" > result.txt
+ - encrypted.txt도 hex이고, key도 hex이다.
+ - 결과값을 result.txt에 저장한다.
 
 2. encrypted.txt
  - 여기는 hex로 변환된 데이터가 들어가야 한다.
