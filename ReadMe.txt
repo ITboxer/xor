@@ -1,0 +1,14 @@
+XOR 변환기
+
+1. COMMAND
+ - cat encrypted.txt | python xor.py "key"
+
+2. encrypted.txt
+ - 여기는 hex로 변환된 데이터가 들어가야 한다.
+ - "I want the cookie." 등의 값이 들어가면 올바른 결과가 나오지 않는다.
+ - 이 string을 변환한 hex 값인 "49 20 77 61 6e 74 20 74 68 65 20 63 6f 6f 6b 69 65 73 2e"를 올바르게 인식한다.
+
+3. key
+ - Ascii 값이 들어가야 한다.
+ - "AAA"가 올바르다.
+ - hex 값을 인식하는 기능은 아직 알아내지 못했다.
